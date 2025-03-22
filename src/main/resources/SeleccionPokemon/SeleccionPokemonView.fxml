@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+
+   <ImageView fitHeight="750.0" fitWidth="1000.0" pickOnBounds="true" preserveRatio="true">
+      <Image url="@FondoLiberarPokemon.png" />
+   </ImageView>
+
+   <VBox fx:id="panePokemons" layoutX="28.0" layoutY="62.0" prefHeight="627.0" prefWidth="454.0" />
+
+   <StackPane layoutX="531.0" layoutY="502.0" prefHeight="135.0" prefWidth="369.0">
+
+      <ImageView fitHeight="151.0" fitWidth="434.0" pickOnBounds="true" preserveRatio="true">
+         <Image url="@CuadroMensaje.png" />
+      </ImageView>
+
+      <Label fx:id="mensaje" alignment="CENTER" prefHeight="108.0" prefWidth="362.0" text="MENSAJE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+
+   </StackPane>
+
+   <ImageView fx:id="botonSalir" fitHeight="62.0" fitWidth="163.0" layoutX="811.0" layoutY="70.0"
+              onMouseClicked="#clickSalir" onMouseEntered="#entroSalir" onMouseExited="#salioSalir" opacity="0.8"
+              pickOnBounds="true" preserveRatio="true" visible="false">
+      <Image url="@../BotonSalir.png" />
+   </ImageView>
+
+   <StackPane fx:id="panePokemonSuelto" layoutX="504.0" layoutY="287.0" prefHeight="116.0" prefWidth="454.0" />
+
+</Pane>

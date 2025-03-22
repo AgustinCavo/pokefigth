@@ -1,0 +1,50 @@
+[
+    {
+        "nombre" : "Pocion",
+        "id" : 0,
+        "efectos" : ["Curar"],
+        "potencia" : 20.0
+    },
+    {
+        "nombre" : "MegaPocion",
+        "id" : 1,
+        "efectos" : ["Curar"],
+        "potencia" : 50.0
+    },
+    {
+        "nombre" : "HiperPocion",
+        "id" : 2,
+        "efectos" : ["Curar"],
+        "potencia" : 100.0
+    },
+    {
+        "nombre" : "CuraTodo",
+        "id" : 3,
+        "efectos" : ["CambiarEstado"],
+        "potencia" : 0
+    },
+    {
+        "nombre" : "Revivir",
+        "id" : 4,
+        "efectos" : ["Revivir"],
+        "potencia" : 0.5
+    },
+    {
+        "nombre" : "AtaqueX",
+        "id" : 5,
+        "efectos" : ["ModificarEstadistica"],
+        "potencia" : 1.1
+    },
+    {
+        "nombre" : "DefensaX",
+        "id" : 6,
+        "efectos" : ["ModificarEstadistica"],
+        "potencia" : 1.1
+    },
+    {
+        "nombre" : "PocionMolestaAlumnos",
+        "id" : 7,
+        "efectos" : ["CurarPorcentual"],
+        "potencia" : 0.33
+    }
+]

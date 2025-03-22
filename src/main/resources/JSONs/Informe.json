@@ -1,0 +1,49 @@
+[ {
+  "nombre" : "Agus",
+  "ganador" : true,
+  "pokemons" : [ {
+    "nombre" : "Charizard",
+    "id" : 0,
+    "vida" : 90.0,
+    "estados" : [ "Normal" ]
+  }, {
+    "nombre" : "Blastoise",
+    "id" : 1,
+    "vida" : 80.0,
+    "estados" : [ "Normal" ]
+  }, {
+    "nombre" : "Alakazam",
+    "id" : 2,
+    "vida" : 88.0,
+    "estados" : [ "Normal" ]
+  } ],
+  "items" : {
+    "0" : 1,
+    "3" : 1,
+    "4" : 3
+  }
+}, {
+  "nombre" : "Lucas",
+  "ganador" : false,
+  "pokemons" : [ {
+    "nombre" : "Dragonite",
+    "id" : 3,
+    "vida" : 200.0,
+    "estados" : [ "Normal" ]
+  }, {
+    "nombre" : "Lapras",
+    "id" : 4,
+    "vida" : 110.0,
+    "estados" : [ "Normal" ]
+  }, {
+    "nombre" : "Gengar",
+    "id" : 5,
+    "vida" : 120.0,
+    "estados" : [ "Normal" ]
+  } ],
+  "items" : {
+    "0" : 1,
+    "3" : 1,
+    "4" : 2
+  }
+} ]

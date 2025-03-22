@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane prefHeight="250.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JuegoPokemon.Controlador.ControladorJugadores.ControladorJugadorSuperior">
+
+    <ImageView fitHeight="97.0" fitWidth="434.0" layoutY="51.0" pickOnBounds="true" preserveRatio="true">
+        <Image url="@CuadroPokemonSuperior.png" />
+    </ImageView>
+
+    <ProgressBar fx:id="barraVida" layoutX="184.0" layoutY="113.0" prefHeight="11.0" prefWidth="152.0" progress="0.0" style="-fx-accent: green;" />
+
+    <StackPane alignment="BOTTOM_CENTER" layoutX="703.0" layoutY="6.0" prefHeight="250.0" prefWidth="217.0">
+        <ImageView fx:id="imagenPokemon" fitHeight="196.0" fitWidth="198.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+            <viewport>
+                <Rectangle2D />
+            </viewport>
+            <Image url="@../PokemonsFrontales/Onix.png" />
+        </ImageView>
+    </StackPane>
+
+
+    <HBox fx:id="estados" alignment="TOP_RIGHT" layoutX="167.0" layoutY="66.0" prefHeight="34.0" prefWidth="173.0" spacing="20.0" />
+
+    <HBox fx:id="pokeballs" layoutX="133.0" layoutY="19.0" prefHeight="26.0" prefWidth="217.0" spacing="10.0" />
+
+   <Label fx:id="nombre" alignment="CENTER" layoutX="7.0" layoutY="66.0" prefHeight="34.0" prefWidth="131.0" />
+   <Label fx:id="numVida" alignment="CENTER" layoutX="20.0" layoutY="105.0" prefHeight="26.0" prefWidth="95.0" text="NUM" />
+
+</Pane>

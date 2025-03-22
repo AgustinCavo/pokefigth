@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="188.0"
+      prefWidth="1000.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+
+   <StackPane layoutX="14.0" layoutY="1.0" prefHeight="155.0" prefWidth="485.0">
+      <ImageView fitHeight="193.0" fitWidth="507.0" pickOnBounds="true" preserveRatio="true">
+         <Image url="@../CuadroDialogo.png"/>
+      </ImageView>
+      <Label fx:id="mensaje" alignment="CENTER" prefHeight="87.0" prefWidth="408.0" text="MENSAJE"/>
+   </StackPane>
+
+   <StackPane onMouseClicked="#clickNo" onMouseEntered="#ingresoNo" onMouseExited="#salioNo" prefHeight="63.0" prefWidth="174.0" layoutX="555.0" layoutY="68.0">
+      <ImageView fx:id="cuadroNo" fitHeight="63.0" fitWidth="174.0" layoutX="555.0" layoutY="68.0"
+                 pickOnBounds="true" preserveRatio="true">
+         <Image url="@../SeleccionHabilidad/CuadroHabilidadSinSeleccionar.png"/>
+      </ImageView>
+
+      <Label fx:id="labelNo" alignment="CENTER" layoutX="809.0" layoutY="84.0" prefHeight="32.0" prefWidth="138.0" text="No"/>
+   </StackPane>
+
+   <StackPane onMouseClicked="#clickSi" onMouseEntered="#ingresoSi" onMouseExited="#salioSi" prefHeight="63.0" prefWidth="174.0" layoutX="791.0" layoutY="68.0">
+      <ImageView fx:id="cuadroSi" fitHeight="63.0" fitWidth="174.0" layoutX="791.0" layoutY="68.0"
+                 pickOnBounds="true" preserveRatio="true">
+         <Image url="@../SeleccionHabilidad/CuadroHabilidadSinSeleccionar.png"/>
+      </ImageView>
+
+      <Label fx:id="labelSi" alignment="CENTER" layoutX="574.0" layoutY="84.0" prefHeight="32.0" prefWidth="138.0" text="Si"/>
+   </StackPane>
+
+</Pane>

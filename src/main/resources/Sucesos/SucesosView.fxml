@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane prefHeight="188.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+
+    <ImageView fitHeight="165.0" fitWidth="815.0" layoutX="6.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+        <Image url="@CuadroDeMensajes.png" />
+    </ImageView>
+
+    <Label fx:id="mensaje" alignment="CENTER" layoutX="40.0" layoutY="50.0" prefHeight="93.0" prefWidth="744.0" text="TEXTO" wrapText="true" />
+
+    <ImageView fx:id="botonContinuar" fitHeight="56.0" fitWidth="151.0" layoutX="824.0" layoutY="106.0" onMouseClicked="#continuar" onMouseEntered="#entroContinuar" onMouseExited="#salioContinuar" pickOnBounds="true">
+        <Image url="@BotonContinuarNoSeleccionado.png" />
+    </ImageView>
+
+    <ImageView fx:id="botonSaltear" fitHeight="56.0" fitWidth="151.0" layoutX="826.0" layoutY="34.0" onMouseClicked="#saltear" onMouseEntered="#entroSaltear" onMouseExited="#salioSaltear" pickOnBounds="true" preserveRatio="true">
+        <Image url="@BotonSaltearNoSeleccionado.png" />
+    </ImageView>
+
+</Pane>

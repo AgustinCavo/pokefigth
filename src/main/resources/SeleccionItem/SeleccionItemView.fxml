@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+      prefHeight="750.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+
+   <ImageView fitHeight="750.0" fitWidth="1081.0" pickOnBounds="true" preserveRatio="true">
+      <Image url="@FondoSeleccionItem.png" />
+   </ImageView>
+
+   <ScrollPane hbarPolicy="NEVER" layoutX="217.0" layoutY="60.0" prefHeight="432.0" prefWidth="628.0" vbarPolicy="NEVER">
+      <VBox fx:id="panelItems" spacing="5.0"/>
+   </ScrollPane>
+
+   <ImageView fx:id="iconoItem" fitHeight="95.0" fitWidth="96.0" layoutX="50.0" layoutY="604.0" pickOnBounds="true" preserveRatio="true" />
+   
+   <Label fx:id="informacionItem" alignment="CENTER" layoutX="194.0" layoutY="589.0" prefHeight="126.0" prefWidth="717.0" textAlignment="CENTER" />
+
+   <ImageView fx:id="botonSalir" fitHeight="77.0" fitWidth="145.0" layoutY="2.0" opacity="0.8" pickOnBounds="true" preserveRatio="true"
+               onMouseClicked="#clickSalir" onMouseEntered="#entroSalir" onMouseExited="#salioSalir">
+      <Image url="@../BotonSalir.png" />
+   </ImageView>
+
+</Pane>

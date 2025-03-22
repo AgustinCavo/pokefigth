@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<StackPane onMouseClicked="#clickHabilidad" onMouseEntered="#entroHabilidad" onMouseExited="#salioHabilidad"
+           prefHeight="64.0" prefWidth="177.0" xmlns="http://javafx.com/javafx/17.0.2-ea"
+           xmlns:fx="http://javafx.com/fxml/1" fx:controller="JuegoPokemon.Controlador.ControladorSeleccionHabilidad.ControladorBotonHabilidad">
+
+    <ImageView fx:id="cuadroHabilidad" fitHeight="62.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+        <Image url="@CuadroHabilidadSinSeleccionar.png" />
+    </ImageView>
+
+    <Label fx:id="nombreHabilidad" alignment="CENTER" layoutX="6.0" layoutY="6.0" prefHeight="44.0" prefWidth="164.0" />
+</StackPane>

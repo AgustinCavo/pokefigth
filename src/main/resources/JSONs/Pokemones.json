@@ -1,0 +1,151 @@
+[
+    {
+        "nombre": "Charizard",
+        "id": 0,
+        "nivel": 1,
+        "tipo": "Planta",
+        "historia": "Es un pequeño Pokémon de color verde, con una planta brotando de su lomo.",
+        "vidaMaxima": 90,
+        "velocidad": 45,
+        "defensa": 49,
+        "ataque": 49,
+        "habilidades": [0, 1, 2,3]
+    },
+    {
+        "nombre": "Blastoise",
+        "id": 1,
+        "nivel": 1,
+        "tipo": "Fuego",
+        "historia": "Blastoise es un pequeño lagarto bípedo. Su piel es de color naranja-rojizo.",
+        "vidaMaxima": 80,
+        "velocidad": 65,
+        "defensa": 43,
+        "ataque": 52,
+        "habilidades": [3, 4, 5,20]
+    },
+    {
+        "nombre": "Alakazam",
+        "id": 2,
+        "nivel": 1,
+        "tipo": "Agua",
+        "historia": "Squirtle es una tortuga pequeña de color azul claro, con una concha que cubre su espalda y vientre.",
+        "vidaMaxima": 88,
+        "velocidad": 43,
+        "defensa": 65,
+        "ataque": 48,
+        "habilidades": [5, 7, 8,21]
+    },
+    {
+        "nombre": "Dragonite",
+        "id": 3,
+        "nivel": 1,
+        "tipo": "Electrico",
+        "historia": "Pikachu es un Pokémon eléctrico de color amarillo, conocido por sus mejillas rojas.",
+        "vidaMaxima": 200,
+        "velocidad": 90,
+        "defensa": 40,
+        "ataque": 55,
+        "habilidades": [9, 19, 11,12]
+    },
+    {
+        "nombre": "Lapras",
+        "id": 4,
+        "nivel": 1,
+        "tipo": "Normal",
+        "historia": "Eevee es un pequeño mamífero parecido a un zorro, con grandes orejas peludas y una cola en forma de cepillo.",
+        "vidaMaxima": 110,
+        "velocidad": 55,
+        "defensa": 50,
+        "ataque": 55,
+        "habilidades": [12, 13, 14,19]
+    },
+    {
+        "nombre": "Gengar",
+        "id": 5,
+        "nivel": 1,
+        "tipo": "Fantasma",
+        "historia": "Gengar es una criatura oscura y maliciosa, conocida por su capacidad para esconderse en las sombras.",
+        "vidaMaxima": 120,
+        "velocidad": 110,
+        "defensa": 60,
+        "ataque": 65,
+        "habilidades": [15, 16, 17,18]
+    },
+
+
+    
+
+
+    {
+        "nombre": "Machamp",
+        "id": 6,
+        "nivel": 1,
+        "tipo": "Lucha",
+        "historia": "Machamp es un Pokémon musculoso con cuatro brazos, conocido por su impresionante fuerza física.",
+        "vidaMaxima": 180,
+        "velocidad": 55,
+        "defensa": 80,
+        "ataque": 130,
+        "habilidades": [18, 0, 1]
+    },
+    {
+        "nombre": "Marowak",
+        "id": 7,
+        "nivel": 1,
+        "tipo": "Psiquico",
+        "historia": "Alakazam es un Pokémon psíquico con una impresionante inteligencia y habilidades telepáticas.",
+        "vidaMaxima": 55,
+        "velocidad": 120,
+        "defensa": 45,
+        "ataque": 50,
+        "habilidades": [2, 3, 4]
+    },
+    {
+        "nombre": "Muk",
+        "id": 8,
+        "nivel": 1,
+        "tipo": "Dragon",
+        "historia": "Dragonite es una criatura grande y majestuosa que puede volar a altas velocidades.",
+        "vidaMaxima": 91,
+        "velocidad": 80,
+        "defensa": 95,
+        "ataque": 134,
+        "habilidades": [2, 3, 4]
+    },
+    {
+        "nombre": "Onix",
+        "id": 9,
+        "nivel": 1,
+        "tipo": "Volador",
+        "historia": "Gyarados es una serpiente de agua que puede transformarse en un dragón volador enfurecido.",
+        "vidaMaxima": 95,
+        "velocidad": 81,
+        "defensa": 79,
+        "ataque": 125,
+        "habilidades": [2, 3, 4]
+    },
+    {
+        "nombre": "Snorlax",
+        "id": 10,
+        "nivel": 1,
+        "tipo": "Psiquico",
+        "historia": "Mewtwo es un Pokémon legendario creado artificialmente, conocido por su inmensa fuerza psíquica.",
+        "vidaMaxima": 106,
+        "velocidad": 130,
+        "defensa": 90,
+        "ataque": 110,
+        "habilidades": [2, 3, 4]
+    },
+    {
+        "nombre": "Venusaur",
+        "id": 11,
+        "nivel": 1,
+        "tipo": "Normal",
+        "historia": "Snorlax es una criatura gigantesca conocida por su apetito voraz y su capacidad para dormir profundamente.",
+        "vidaMaxima": 110,
+        "velocidad": 30,
+        "defensa": 110,
+        "ataque": 110,
+        "habilidades": [2, 3, 4]
+    }
+]

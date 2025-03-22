@@ -1,0 +1,19 @@
+Llamarada;Fuego;90;Envenenado;0.3;4;Tira fuego
+Rayo Trueno;Electrico;110;Paralizado;0.2;2;Lanza un rayo truenoso que puede paralizar al oponente.
+Hoja Afilada;Planta;80;Normal;0.2;3;Ataca con hojas afiladas.
+Terremoto;Tierra;100;Normal;0.2;3;Causa un terremoto para dañar al oponente.
+Hidrobomba;Agua;110;Normal;0.2;3;Lanza una bomba de agua.
+Psíquico;Psiquico;90;Normal;0.2;3;Utiliza poderes psíquicos para atacar.
+Ataque Rápido;Normal;60;Normal;0.2;3;Realiza un rápido ataque.
+Hipnosis;Psiquico;0;Dormido;0.8;4;Puede inducir el sueño en el oponente mediante hipnosis.
+Garras Tóxicas;Veneno;50;Envenenado;0.3;4;Ataca con garras envenenadas.
+Viento Plata;Volador;70;Normal;0.2;3;Golpea con viento afilado.
+Rayo de Hielo;Hielo;100;Normal;0.2;3;Dispara un rayo de hielo para dañar al oponente.
+Cabezazo;Normal;70;Normal;0.2;3;Realiza un cabezazo.
+Furia Dragón;Dragon;120;Normal;0.2;3;Se enfurece y ataca con gran poder.
+Latigazo Venenoso;Planta;65;Envenenado;0.3;4;Ataca con un látigo envenenado.
+Toque Venenoso;Veneno;0;Envenenado;0.4;5;Envenena al oponente con un toque.
+Somnífero;Normal;0;Dormido;0.5;4;Induce el sueño en el oponente.
+Rayo Hipnótico;Psiquico;50;Dormido;0.4;5;Lanza un rayo hipnótico para inducir el sueño.
+Chispa Paralizante;Electrico;70;Paralizado;0.3;4;Emite una chispa paralizante para paralizar al oponente.
+Mirada Paralizante;Normal;0;Paralizado;1;4;Fija una mirada paralizante en el oponente para paralizarlo.

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="188.0"
+      prefWidth="1000.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+
+   <fx:include fx:id="cuadro1" layoutX="14.0" layoutY="14.0" prefHeight="0.0" prefWidth="0.0" source="BotonHabilidad.fxml" />
+
+   <fx:include fx:id="cuadro2" layoutX="330.0" layoutY="14.0" prefHeight="0.0" prefWidth="0.0" source="BotonHabilidad.fxml" />
+
+   <fx:include fx:id="cuadro3" layoutX="14.0" layoutY="120.0" prefHeight="0.0" prefWidth="0.0" source="BotonHabilidad.fxml" />
+
+   <fx:include fx:id="cuadro4" layoutX="330.0" layoutY="120.0" prefHeight="0.0" prefWidth="0.0" source="BotonHabilidad.fxml" />
+
+   <ImageView fx:id="botonSalir" fitHeight="55.0" fitWidth="139.0" layoutX="193.0" layoutY="70.0"
+              onMouseClicked="#clickSalir" onMouseEntered="#entroSalir" onMouseExited="#salioSalir"
+              opacity="0.8" pickOnBounds="true" preserveRatio="true">
+      <Image url="@../BotonSalir.png" />
+   </ImageView>
+
+   <ImageView fitHeight="175.0" fitWidth="471.0" layoutX="529.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+      <Image url="@../CuadroDialogo.png" />
+   </ImageView>
+
+   <Label fx:id="info" alignment="CENTER" layoutX="574.0" layoutY="52.0" prefHeight="80.0" prefWidth="382.0" />
+
+</Pane>

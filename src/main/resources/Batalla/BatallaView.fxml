@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+
+   <fx:include fx:id="campoBatalla" source="../CampoBatalla/CampoBatallaView.fxml" />
+   <fx:include fx:id="jugadores" source="../Jugadores/JugadoresView.fxml" />
+
+   <ImageView fx:id="imagenSuperior" fitHeight="750.0" fitWidth="1000.0" pickOnBounds="true" preserveRatio="true">
+      <Image url="@Bordes.png" />
+   </ImageView>
+
+   <StackPane fx:id="barraInferior" layoutY="562.0" prefHeight="188.0" prefWidth="1000.0" />
+   <Label fx:id="nombreGanador" alignment="CENTER" layoutX="249.0" layoutY="126.0" prefHeight="152.0" prefWidth="502.0" text="NOMBRE DEL JUGADOR" visible="false">
+      <font>
+         <Font size="35.0" />
+      </font>
+   </Label>
+
+</Pane>

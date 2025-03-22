@@ -1,0 +1,62 @@
+[
+  {
+    "nombre": "Charizard",
+    "id": 0,
+    "nivel": 1,
+    "tipo": "Normal",
+    "historia": "Es un pequeño Pokémon de color verde, con una planta brotando de su lomo.",
+    "vidaMaxima": 45,
+    "velocidad": 45,
+    "defensa": 49,
+    "ataque": 49,
+    "habilidades": [0, 1, 2]
+  },
+  {
+    "nombre": "Blastoise",
+    "id": 1,
+    "nivel": 1,
+    "tipo": "Normal",
+    "historia": "Blastoise es un pequeño lagarto bípedo. Su piel es de color naranja-rojizo.",
+    "vidaMaxima": 39,
+    "velocidad": 65,
+    "defensa": 43,
+    "ataque": 52,
+    "habilidades": [3, 4, 5]
+  },
+  {
+    "nombre": "Alakazam",
+    "id": 2,
+    "nivel": 1,
+    "tipo": "Normal",
+    "historia": "Squirtle es una tortuga pequeña de color azul claro, con una concha que cubre su espalda y vientre.",
+    "vidaMaxima": 44,
+    "velocidad": 43,
+    "defensa": 65,
+    "ataque": 48,
+    "habilidades": [6,8,9]
+  },
+  {
+    "nombre": "Dragonite",
+    "id": 3,
+    "nivel": 1,
+    "tipo": "Electrico",
+    "historia": "Pikachu es un Pokémon eléctrico de color amarillo, conocido por sus mejillas rojas.",
+    "vidaMaxima": 35,
+    "velocidad": 90,
+    "defensa": 40,
+    "ataque": 55,
+    "habilidades": [9, 10, 11]
+  },
+  {
+    "nombre": "Lapras",
+    "id": 4,
+    "nivel": 1,
+    "tipo": "Normal",
+    "historia": "Eevee es un pequeño mamífero parecido a un zorro, con grandes orejas peludas y una cola en forma de cepillo.",
+    "vidaMaxima": 55,
+    "velocidad": 55,
+    "defensa": 50,
+    "ataque": 55,
+    "habilidades": [12, 13, 14]
+  }
+]

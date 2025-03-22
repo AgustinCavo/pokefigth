@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+
+<Pane prefHeight="500.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" layoutY="63.0"
+    fx:controller="JuegoPokemon.Controlador.ControladorJugadores.ControladorJugadores">
+
+    <fx:include fx:id="jugadorInferior" layoutY="250.0" source="JugadorInferiorView.fxml" />
+    <fx:include fx:id="jugadorSuperior" source="JugadorSuperiorView.fxml" />
+
+</Pane>
